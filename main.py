@@ -9,7 +9,7 @@ def power(a):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--n", type=int, default=4)
+    parser.add_argument("--n", type=int, default=2)
 
     args = parser.parse_args()
     n = args.n
