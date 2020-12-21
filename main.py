@@ -2,8 +2,10 @@ import os
 import sys
 import argparse
 
+
 def power(a):
     return a**2
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
